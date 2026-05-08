@@ -15,7 +15,7 @@ Este repositório contém um pacote mínimo para criação e handoff de ferramen
 3. Marque todos os itens em `CHECKLIST_ENTREGA.md`.
 4. Faça deploy (Vercel para Opção A; Render para Opção B com backend Flask).
 
-## Perguntas obrigatórias de intake (antes do desenvolvimento)
+## Perguntas obrigatórias de levantamento de requisitos (antes do desenvolvimento)
 
 1. Nome da ferramenta
 2. Descrição curta

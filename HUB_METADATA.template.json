@@ -8,6 +8,6 @@
   "plataforma": "[Vercel | Render]",
   "stack": "[HTML puro | Flask + Python]",
   "desenvolvido_por": "[Nome / Área]",
-  "data_entrega": "[YYYY-MM-DD]",
+  "data_entrega": "[YYYY-MM-DD, ex: 2026-05-08]",
   "status": "Aguardando aprovação do admin"
 }

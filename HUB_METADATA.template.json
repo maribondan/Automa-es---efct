@@ -1,0 +1,13 @@
+{
+  "nome": "[Nome da ferramenta]",
+  "descricao_curta": "[Descrição curta até ~160 caracteres]",
+  "area_responsavel": "[Fiscal | Contratos | RH | Societário | ...]",
+  "tipo_acesso": "[Interno | Externo]",
+  "icone": "[emoji Unicode]",
+  "url_ferramenta": "[https://...]",
+  "plataforma": "[Vercel | Render]",
+  "stack": "[HTML puro | Flask + Python]",
+  "desenvolvido_por": "[Nome / Área]",
+  "data_entrega": "[YYYY-MM-DD]",
+  "status": "Aguardando aprovação do admin"
+}

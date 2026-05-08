@@ -1,0 +1,14 @@
+- [ ] Perguntas obrigatórias respondidas (nome, descrição, área, acesso, ícone, backend, desenvolvedor)
+- [ ] UI no padrão EFCT (paleta, tipografia, cards, botões, inputs)
+- [ ] Header obrigatório presente com link para `https://effect-contratos-api.onrender.com`
+- [ ] Sem frameworks pesados no frontend (React/Vue/Angular/bundlers)
+- [ ] Sem credenciais hardcoded e sem arquivos sensíveis versionados
+- [ ] Caminhos de runtime compatíveis com Render (sem `/mnt/...`)
+- [ ] `GET /health` retorna `{ "status": "ok" }` (quando Opção B)
+- [ ] `POST /api/processar` implementado com erro padrão `{ "erro": "mensagem humana", "detalhes": [] }` (quando Opção B)
+- [ ] CNPJ com User-Agent configurado e fallback implementado (quando aplicável)
+- [ ] Geração `.docx` sem `python-docx`; conversão PDF via LibreOffice com timeout (quando aplicável)
+- [ ] URL pública de produção testada e funcionando
+- [ ] `HUB_METADATA.json` preenchido com todos os campos
+- [ ] Screenshot da tela principal gerado (PNG/JPG)
+- [ ] Relatório final preparado para envio ao Ricardo

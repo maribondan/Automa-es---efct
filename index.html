@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HUB EFCT | Ferramenta</title>
+  <style>
+    :root {
+      --efct-blue: #3B82F6;
+      --efct-dark: #1F2937;
+      --bg: #F3F4F6;
+      --card: #FFFFFF;
+      --text: #111827;
+      --muted: #6B7280;
+      --border: #E5E7EB;
+      --success: #22C55E;
+      --warning: #F59E0B;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    }
+
+    header {
+      background: var(--efct-dark);
+      color: #fff;
+      padding: 16px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .header-title { font-size: 24px; font-weight: 600; }
+
+    .hub-link {
+      color: #fff;
+      text-decoration: none;
+      border: 1px solid rgba(255,255,255,0.35);
+      border-radius: 8px;
+      padding: 8px 12px;
+      font-size: 13px;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 24px auto;
+      padding: 0 16px;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      padding: 20px;
+    }
+
+    h1 { margin: 0 0 8px; font-size: 24px; }
+    p { margin: 0 0 16px; font-size: 16px; color: var(--muted); }
+    label { display: block; margin-bottom: 6px; font-size: 13px; color: var(--muted); }
+
+    input {
+      width: 100%;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 10px 12px;
+      font-size: 16px;
+      margin-bottom: 12px;
+      outline: none;
+      background: #fff;
+    }
+
+    input:focus { border-color: var(--efct-blue); }
+
+    .actions { display: flex; gap: 8px; align-items: center; }
+
+    button {
+      border: 0;
+      border-radius: 8px;
+      background: var(--efct-blue);
+      color: #fff;
+      padding: 10px 14px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 4px 10px;
+      border-radius: 999px;
+      color: #fff;
+      font-size: 13px;
+      font-weight: 600;
+    }
+
+    .badge-interno { background: var(--efct-blue); }
+    .badge-externo { background: var(--warning); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-title">HUB EFCT | [Nome da Ferramenta]</div>
+    <a class="hub-link" href="https://effect-contratos-api.onrender.com" target="_blank" rel="noopener noreferrer">voltar ao HUB</a>
+  </header>
+
+  <main>
+    <section class="card">
+      <h1>[Emoji] [Nome da Ferramenta]</h1>
+      <p>[Descrição curta da ferramenta]</p>
+      <span class="badge badge-interno">Interno</span>
+      <span class="badge badge-externo">Externo</span>
+
+      <div style="margin-top:16px;">
+        <label for="campo">Campo de exemplo</label>
+        <input id="campo" placeholder="Digite um valor" />
+      </div>
+
+      <div class="actions">
+        <button type="button" onclick="alert('Ação principal da ferramenta')">Executar</button>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

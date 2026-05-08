@@ -1,0 +1,59 @@
+{
+  "$comentario": "Preencha TODOS os campos marcados com <...>. Campos opcionais têm default indicado. Remova este campo '$comentario' antes de entregar.",
+
+  "slug": "<identificador-sem-espacos-nem-acentos>",
+  "nome": "<Nome da ferramenta como aparece no card>",
+  "descricao_curta": "<Descrição de até 2 linhas que aparecerá no card do HUB>",
+  "area_responsavel": "<Fiscal | Contratos | RH | Societário | ...>",
+
+  "tipo_acesso": "<Interno | Externo>",
+  "icone_emoji": "<emoji Unicode, ex: 📊>",
+
+  "url_producao": "<https://...>",
+  "plataforma": "<Vercel | Render | outro>",
+
+  "abertura": {
+    "$comentario": "modo=externa abre em nova aba; modo=subpagina integra dentro do HUB (raro — só se combinado com o Ricardo)",
+    "modo": "externa",
+    "target": "_blank"
+  },
+
+  "ícone_cores_sugeridas": {
+    "$comentario": "Escolha um esquema consistente com a identidade EFCT (ex: contratos=#e8f4fd/#2b579a, tributario=#fff3e0/#e65100, irpj=#e8f5e9/#2e7d32). Se não souber, deixe null e o Ricardo define.",
+    "background_gradient_from": null,
+    "background_gradient_to": null,
+    "cor_texto": null
+  },
+
+  "permissao": {
+    "$comentario": "Chave que será usada em users.json (permissions.<chave>). Use o mesmo valor do slug.",
+    "chave": "<mesmo-valor-do-slug>",
+    "default_para_novos_usuarios": true,
+    "default_para_admin": true,
+    "default_para_equipe": true
+  },
+
+  "autenticacao_propria": {
+    "$comentario": "Se a ferramenta tem login próprio além do HUB, descreva aqui",
+    "tem_login_proprio": false,
+    "credenciais_teste": null
+  },
+
+  "entrega": {
+    "desenvolvido_por": "<Nome / área>",
+    "data_entrega": "<YYYY-MM-DD>",
+    "stack_utilizada": "<ex: HTML puro / Flask + Python 3.11 + LibreOffice>",
+    "repositorio_codigo": "<URL do repo GitHub, se houver>",
+    "observacoes": null
+  },
+
+  "validacoes": {
+    "$comentario": "Preencha true/false para cada item — todos precisam ser true antes de entregar",
+    "url_acessivel_publicamente": false,
+    "padrao_visual_efct_seguido": false,
+    "header_hub_efct_presente": false,
+    "testado_em_producao": false,
+    "sem_credenciais_hardcoded": false,
+    "readme_preenchido": false
+  }
+}

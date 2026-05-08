@@ -1,9 +1,9 @@
 - [ ] Perguntas obrigatórias respondidas (nome, descrição, área, acesso, ícone, backend, desenvolvedor)
 - [ ] UI no padrão EFCT (paleta, tipografia, cards, botões, inputs)
-- [ ] Header obrigatório presente com link para `https://effect-contratos-api.onrender.com` (garante retorno padronizado ao HUB principal)
+- [ ] Header obrigatório presente com link para `https://effect-contratos-api.onrender.com` (URL oficial de produção do HUB principal)
 - [ ] Sem frameworks pesados no frontend (React/Vue/Angular/bundlers)
 - [ ] Sem credenciais hardcoded e sem arquivos sensíveis versionados
-- [ ] Caminhos de runtime compatíveis com Render (sem `/mnt/...`)
+- [ ] Caminhos de runtime compatíveis com Render (sem `/mnt/...`, pois esses caminhos não existem no runtime do serviço)
 - [ ] `GET /health` retorna `{ "status": "ok" }` (quando Opção B)
 - [ ] `POST /api/processar` implementado com erro padrão `{ "erro": "mensagem humana", "detalhes": [] }` (quando Opção B)
 - [ ] CNPJ com User-Agent configurado e fallback implementado (quando aplicável)

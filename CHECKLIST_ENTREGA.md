@@ -1,6 +1,6 @@
 - [ ] Perguntas obrigatórias respondidas (nome, descrição, área, acesso, ícone, backend, desenvolvedor)
 - [ ] UI no padrão EFCT (paleta, tipografia, cards, botões, inputs)
-- [ ] Header obrigatório presente com link para `https://effect-contratos-api.onrender.com`
+- [ ] Header obrigatório presente com link para `https://effect-contratos-api.onrender.com` (garante retorno padronizado ao HUB principal)
 - [ ] Sem frameworks pesados no frontend (React/Vue/Angular/bundlers)
 - [ ] Sem credenciais hardcoded e sem arquivos sensíveis versionados
 - [ ] Caminhos de runtime compatíveis com Render (sem `/mnt/...`)
